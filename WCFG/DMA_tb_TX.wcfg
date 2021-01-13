@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="DMA_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="DMA_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5951151fs"></ZoomStartTime>
+      <ZoomEndTime time="6009770fs"></ZoomEndTime>
+      <Cursor1Time time="5952803fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="155"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wave_markers>
+      <marker time="5500000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/DMA_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DMA_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DMA_tb/uut/SMCurrentState" type="other">
+      <obj_property name="ElementShortName">SMCurrentState</obj_property>
+      <obj_property name="ObjectShortName">SMCurrentState</obj_property>
+   </wvobject>
+   <wvobject fp_name="group22" type="group">
+      <obj_property name="label">CPU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/DMA_tb/Send_comm" type="logic">
+         <obj_property name="ElementShortName">Send_comm</obj_property>
+         <obj_property name="ObjectShortName">Send_comm</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb/READY" type="logic">
+         <obj_property name="ElementShortName">READY</obj_property>
+         <obj_property name="ObjectShortName">READY</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group20" type="group">
+      <obj_property name="label">TX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/DMA_tb/TX_RDY" type="logic">
+         <obj_property name="ElementShortName">TX_RDY</obj_property>
+         <obj_property name="ObjectShortName">TX_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb/uut/enable_CT" type="logic">
+         <obj_property name="ElementShortName">enable_CT</obj_property>
+         <obj_property name="ObjectShortName">enable_CT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb/uut/CT" type="array">
+         <obj_property name="ElementShortName">CT[1:0]</obj_property>
+         <obj_property name="ObjectShortName">CT[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb/ACK_out" type="logic">
+         <obj_property name="ElementShortName">ACK_out</obj_property>
+         <obj_property name="ObjectShortName">ACK_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb/Valid_D" type="logic">
+         <obj_property name="ElementShortName">Valid_D</obj_property>
+         <obj_property name="ObjectShortName">Valid_D</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb/TX_Data" type="array">
+         <obj_property name="ElementShortName">TX_Data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">TX_Data[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group21" type="group">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/DMA_tb/Write_en" type="logic">
+         <obj_property name="ElementShortName">Write_en</obj_property>
+         <obj_property name="ObjectShortName">Write_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb/oe" type="logic">
+         <obj_property name="ElementShortName">oe</obj_property>
+         <obj_property name="ObjectShortName">oe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb/CS" type="logic">
+         <obj_property name="ElementShortName">CS</obj_property>
+         <obj_property name="ObjectShortName">CS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb/Databus" type="array">
+         <obj_property name="ElementShortName">Databus[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Databus[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb/Address" type="array">
+         <obj_property name="ElementShortName">Address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Address[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="DMAtop_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="DMAtop_tb" />
+            <top_module name="glbl" />
+            <top_module name="pic_pkg" />
+            <top_module name="rs232_test" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="399865170fs"></ZoomStartTime>
+      <ZoomEndTime time="401003447fs"></ZoomEndTime>
+      <Cursor1Time time="263751419fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="193"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/DMAtop_tb/Clk100" type="logic">
+      <obj_property name="ElementShortName">Clk100</obj_property>
+      <obj_property name="ObjectShortName">Clk100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DMAtop_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DMAtop_tb/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="group52" type="group">
+      <obj_property name="label">CPU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/DMAtop_tb/Send_comm" type="logic">
+         <obj_property name="ElementShortName">Send_comm</obj_property>
+         <obj_property name="ObjectShortName">Send_comm</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/DMA_ACK" type="logic">
+         <obj_property name="ElementShortName">DMA_ACK</obj_property>
+         <obj_property name="ObjectShortName">DMA_ACK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/Write_en" type="logic">
+         <obj_property name="ElementShortName">Write_en</obj_property>
+         <obj_property name="ObjectShortName">Write_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/oe" type="logic">
+         <obj_property name="ElementShortName">oe</obj_property>
+         <obj_property name="ObjectShortName">oe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/CS" type="logic">
+         <obj_property name="ElementShortName">CS</obj_property>
+         <obj_property name="ObjectShortName">CS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group50" type="group">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/DMAtop_tb/uut/RAM/CS" type="logic">
+         <obj_property name="ElementShortName">CS</obj_property>
+         <obj_property name="ObjectShortName">CS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/uut/RAM/oe" type="logic">
+         <obj_property name="ElementShortName">oe</obj_property>
+         <obj_property name="ObjectShortName">oe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/uut/RAM/write_en" type="logic">
+         <obj_property name="ElementShortName">write_en</obj_property>
+         <obj_property name="ObjectShortName">write_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/uut/RAM/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/uut/RAM/databus" type="array">
+         <obj_property name="ElementShortName">databus[7:0]</obj_property>
+         <obj_property name="ObjectShortName">databus[7:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group51" type="group">
+      <obj_property name="label">DMA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/DMAtop_tb/uut/DMAt/Clk" type="logic">
+         <obj_property name="ElementShortName">Clk</obj_property>
+         <obj_property name="ObjectShortName">Clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/uut/DMAt/SMCurrentState" type="other">
+         <obj_property name="ElementShortName">SMCurrentState</obj_property>
+         <obj_property name="ObjectShortName">SMCurrentState</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/uut/DMAt/CS" type="logic">
+         <obj_property name="ElementShortName">CS</obj_property>
+         <obj_property name="ObjectShortName">CS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/uut/DMAt/Address" type="array">
+         <obj_property name="ElementShortName">Address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/uut/DMAt/Send_comm" type="logic">
+         <obj_property name="ElementShortName">Send_comm</obj_property>
+         <obj_property name="ObjectShortName">Send_comm</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/uut/DMAt/ACK_out" type="logic">
+         <obj_property name="ElementShortName">ACK_out</obj_property>
+         <obj_property name="ObjectShortName">ACK_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/uut/DMAt/TX_RDY" type="logic">
+         <obj_property name="ElementShortName">TX_RDY</obj_property>
+         <obj_property name="ObjectShortName">TX_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/uut/DMAt/CT" type="array">
+         <obj_property name="ElementShortName">CT[1:0]</obj_property>
+         <obj_property name="ObjectShortName">CT[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/uut/DMAt/Databus" type="array">
+         <obj_property name="ElementShortName">Databus[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Databus[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMAtop_tb/uut/DMAt/TX_Data" type="array">
+         <obj_property name="ElementShortName">TX_Data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">TX_Data[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group54" type="group">
+      <obj_property name="label">RS232</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group55" type="group">
+         <obj_property name="label">TX</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/DMAtop_tb/uut/RS232/Transmitter/SMCurrentState" type="other">
+            <obj_property name="ElementShortName">SMCurrentState</obj_property>
+            <obj_property name="ObjectShortName">SMCurrentState</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DMAtop_tb/uut/RS232/TX_RDY" type="logic">
+            <obj_property name="ElementShortName">TX_RDY</obj_property>
+            <obj_property name="ObjectShortName">TX_RDY</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DMAtop_tb/uut/RS232/StartTX" type="logic">
+            <obj_property name="ElementShortName">StartTX</obj_property>
+            <obj_property name="ObjectShortName">StartTX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DMAtop_tb/uut/RS232/Transmitter/Data_Count" type="other">
+            <obj_property name="ElementShortName">Data_Count</obj_property>
+            <obj_property name="ObjectShortName">Data_Count</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DMAtop_tb/uut/RS232/Transmitter/TX" type="logic">
+            <obj_property name="ElementShortName">TX</obj_property>
+            <obj_property name="ObjectShortName">TX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group431" type="group">
+         <obj_property name="label">RX</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/DMAtop_tb/uut/RS232/Receiver/SMCurrentState" type="other">
+            <obj_property name="ElementShortName">SMCurrentState</obj_property>
+            <obj_property name="ObjectShortName">SMCurrentState</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DMAtop_tb/uut/RS232/Valid_out" type="logic">
+            <obj_property name="ElementShortName">Valid_out</obj_property>
+            <obj_property name="ObjectShortName">Valid_out</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DMAtop_tb/uut/RS232/Receiver/fullcounter" type="other">
+            <obj_property name="ElementShortName">fullcounter</obj_property>
+            <obj_property name="ObjectShortName">fullcounter</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DMAtop_tb/uut/RS232/Receiver/Code_out" type="logic">
+            <obj_property name="ElementShortName">Code_out</obj_property>
+            <obj_property name="ObjectShortName">Code_out</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DMAtop_tb/uut/RS232/Receiver/Store_out" type="logic">
+            <obj_property name="ElementShortName">Store_out</obj_property>
+            <obj_property name="ObjectShortName">Store_out</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DMAtop_tb/uut/RS232/RD" type="logic">
+            <obj_property name="ElementShortName">RD</obj_property>
+            <obj_property name="ObjectShortName">RD</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DMAtop_tb/uut/RS232/Receiver/datacounter" type="other">
+            <obj_property name="ElementShortName">datacounter</obj_property>
+            <obj_property name="ObjectShortName">datacounter</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DMAtop_tb/uut/RS232/Fifo_in" type="array">
+            <obj_property name="ElementShortName">Fifo_in[7:0]</obj_property>
+            <obj_property name="ObjectShortName">Fifo_in[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="group737" type="group">
+            <obj_property name="label">FIFO</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/DMAtop_tb/uut/RS232/Internal_memory/wr_en" type="logic">
+               <obj_property name="ElementShortName">wr_en</obj_property>
+               <obj_property name="ObjectShortName">wr_en</obj_property>
+            </wvobject>
+            <wvobject fp_name="/DMAtop_tb/uut/RS232/Internal_memory/rd_en" type="logic">
+               <obj_property name="ElementShortName">rd_en</obj_property>
+               <obj_property name="ObjectShortName">rd_en</obj_property>
+            </wvobject>
+            <wvobject fp_name="/DMAtop_tb/uut/RS232/Internal_memory/din" type="array">
+               <obj_property name="ElementShortName">din[7:0]</obj_property>
+               <obj_property name="ObjectShortName">din[7:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/DMAtop_tb/uut/RS232/Internal_memory/dout" type="array">
+               <obj_property name="ElementShortName">dout[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/DMAtop_tb/uut/RS232/Empty" type="logic">
+               <obj_property name="ElementShortName">Empty</obj_property>
+               <obj_property name="ObjectShortName">Empty</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

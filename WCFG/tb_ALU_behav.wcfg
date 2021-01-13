@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_ALU_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pic_pkg" />
+            <top_module name="tb_ALU" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="187050fs"></ZoomStartTime>
+      <ZoomEndTime time="447051fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="164"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb_ALU/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU/u_instruction" type="other">
+      <obj_property name="ElementShortName">u_instruction</obj_property>
+      <obj_property name="ObjectShortName">u_instruction</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU/Databus" type="array">
+      <obj_property name="ElementShortName">Databus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Databus[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU/dut/tempR" type="array">
+      <obj_property name="ElementShortName">tempR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tempR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group33" type="group">
+      <obj_property name="label">Flags</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_ALU/FlagE" type="logic">
+         <obj_property name="ElementShortName">FlagE</obj_property>
+         <obj_property name="ObjectShortName">FlagE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ALU/FlagN" type="logic">
+         <obj_property name="ElementShortName">FlagN</obj_property>
+         <obj_property name="ObjectShortName">FlagN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ALU/FlagC" type="logic">
+         <obj_property name="ElementShortName">FlagC</obj_property>
+         <obj_property name="ObjectShortName">FlagC</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ALU/FlagZ" type="logic">
+         <obj_property name="ElementShortName">FlagZ</obj_property>
+         <obj_property name="ObjectShortName">FlagZ</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group34" type="group">
+      <obj_property name="label">Registros</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_ALU/dut/Areg" type="array">
+         <obj_property name="ElementShortName">Areg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Areg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ALU/dut/Breg" type="array">
+         <obj_property name="ElementShortName">Breg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Breg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ALU/dut/Accreg" type="array">
+         <obj_property name="ElementShortName">Accreg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Accreg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ALU/dut/Idreg" type="array">
+         <obj_property name="ElementShortName">Idreg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Idreg[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

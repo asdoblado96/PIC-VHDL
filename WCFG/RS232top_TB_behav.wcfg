@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RS232top_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RS232top_TB" />
+            <top_module name="glbl" />
+            <top_module name="rs232_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="18660001fs"></ZoomEndTime>
+      <Cursor1Time time="99350000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="162"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/RS232top_TB/UUT/Clk100MHz" type="logic">
+      <obj_property name="ElementShortName">Clk100MHz</obj_property>
+      <obj_property name="ObjectShortName">Clk100MHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RS232top_TB/UUT/Clock_generator/clk_out1" type="logic">
+      <obj_property name="ElementShortName">clk_out1</obj_property>
+      <obj_property name="ObjectShortName">clk_out1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RS232top_TB/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="group308" type="group">
+      <obj_property name="label">TOP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="divider" fp_name="divider306">
+         <obj_property name="label">Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/Valid_D" type="logic">
+         <obj_property name="ElementShortName">Valid_D</obj_property>
+         <obj_property name="ObjectShortName">Valid_D</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/RD" type="logic">
+         <obj_property name="ElementShortName">RD</obj_property>
+         <obj_property name="ObjectShortName">RD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/Data_read" type="logic">
+         <obj_property name="ElementShortName">Data_read</obj_property>
+         <obj_property name="ObjectShortName">Data_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Data_in" type="array">
+         <obj_property name="ElementShortName">Data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider307">
+         <obj_property name="label">Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Data_out" type="array">
+         <obj_property name="ElementShortName">Data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/Ack_in" type="logic">
+         <obj_property name="ElementShortName">Ack_in</obj_property>
+         <obj_property name="ObjectShortName">Ack_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/TX_RDY" type="logic">
+         <obj_property name="ElementShortName">TX_RDY</obj_property>
+         <obj_property name="ObjectShortName">TX_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/TD" type="logic">
+         <obj_property name="ElementShortName">TD</obj_property>
+         <obj_property name="ObjectShortName">TD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Data_read" type="logic">
+         <obj_property name="ElementShortName">Data_read</obj_property>
+         <obj_property name="ObjectShortName">Data_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/Empty" type="logic">
+         <obj_property name="ElementShortName">Empty</obj_property>
+         <obj_property name="ObjectShortName">Empty</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group34" type="group">
+      <obj_property name="label">TX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="divider" fp_name="divider201">
+         <obj_property name="label">Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Transmitter/Start" type="logic">
+         <obj_property name="ElementShortName">Start</obj_property>
+         <obj_property name="ObjectShortName">Start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Transmitter/Data" type="array">
+         <obj_property name="ElementShortName">Data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Data[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider202">
+         <obj_property name="label">Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Transmitter/EOT" type="logic">
+         <obj_property name="ElementShortName">EOT</obj_property>
+         <obj_property name="ObjectShortName">EOT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Transmitter/TX" type="logic">
+         <obj_property name="ElementShortName">TX</obj_property>
+         <obj_property name="ObjectShortName">TX</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider203">
+         <obj_property name="label">Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Transmitter/SMCurrentState" type="other">
+         <obj_property name="ElementShortName">SMCurrentState</obj_property>
+         <obj_property name="ObjectShortName">SMCurrentState</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Transmitter/Pulse_With" type="logic">
+         <obj_property name="ElementShortName">Pulse_With</obj_property>
+         <obj_property name="ObjectShortName">Pulse_With</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Transmitter/Data_Count" type="other">
+         <obj_property name="ElementShortName">Data_Count</obj_property>
+         <obj_property name="ObjectShortName">Data_Count</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Transmitter/Clk_Count" type="other">
+         <obj_property name="ElementShortName">Clk_Count</obj_property>
+         <obj_property name="ObjectShortName">Clk_Count</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Transmitter/Enable_Cuenta" type="logic">
+         <obj_property name="ElementShortName">Enable_Cuenta</obj_property>
+         <obj_property name="ObjectShortName">Enable_Cuenta</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group33" type="group">
+      <obj_property name="label">RX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="divider" fp_name="divider201">
+         <obj_property name="label">Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Receiver/LineRD_in" type="logic">
+         <obj_property name="ElementShortName">LineRD_in</obj_property>
+         <obj_property name="ObjectShortName">LineRD_in</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider202">
+         <obj_property name="label">Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Receiver/Valid_out" type="logic">
+         <obj_property name="ElementShortName">Valid_out</obj_property>
+         <obj_property name="ObjectShortName">Valid_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Receiver/Code_out" type="logic">
+         <obj_property name="ElementShortName">Code_out</obj_property>
+         <obj_property name="ObjectShortName">Code_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Receiver/Store_out" type="logic">
+         <obj_property name="ElementShortName">Store_out</obj_property>
+         <obj_property name="ObjectShortName">Store_out</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider203">
+         <obj_property name="label">Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Receiver/SMCurrentState" type="other">
+         <obj_property name="ElementShortName">SMCurrentState</obj_property>
+         <obj_property name="ObjectShortName">SMCurrentState</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Receiver/halfcounter" type="other">
+         <obj_property name="ElementShortName">halfcounter</obj_property>
+         <obj_property name="ObjectShortName">halfcounter</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Receiver/halfbit" type="logic">
+         <obj_property name="ElementShortName">halfbit</obj_property>
+         <obj_property name="ObjectShortName">halfbit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Receiver/fullcounter" type="other">
+         <obj_property name="ElementShortName">fullcounter</obj_property>
+         <obj_property name="ObjectShortName">fullcounter</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Receiver/fullbit" type="logic">
+         <obj_property name="ElementShortName">fullbit</obj_property>
+         <obj_property name="ObjectShortName">fullbit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Receiver/datacounter" type="other">
+         <obj_property name="ElementShortName">datacounter</obj_property>
+         <obj_property name="ObjectShortName">datacounter</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group99" type="group">
+      <obj_property name="label">ShiftRegister</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RS232top_TB/UUT/Shift/Enable" type="logic">
+         <obj_property name="ElementShortName">Enable</obj_property>
+         <obj_property name="ObjectShortName">Enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Shift/D" type="logic">
+         <obj_property name="ElementShortName">D</obj_property>
+         <obj_property name="ObjectShortName">D</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Shift/Q" type="array">
+         <obj_property name="ElementShortName">Q[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group35" type="group">
+      <obj_property name="label">FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RS232top_TB/UUT/Internal_memory/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Internal_memory/din" type="array">
+         <obj_property name="ElementShortName">din[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Internal_memory/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Internal_memory/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Internal_memory/dout" type="array">
+         <obj_property name="ElementShortName">dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS232top_TB/UUT/Internal_memory/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/RS232top_TB/UUT/Data_in" type="array">
+      <obj_property name="ElementShortName">Data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RS232top_TB/Data_transmit" type="array">
+      <obj_property name="ElementShortName">Data_transmit[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_transmit[7:0]</obj_property>
+   </wvobject>
+</wave_config>

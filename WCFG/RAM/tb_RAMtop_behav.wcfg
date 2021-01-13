@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_RAMtop_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="pic_pkg" />
+            <top_module name="tb_RAMtop" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1812001fs"></ZoomEndTime>
+      <Cursor1Time time="753000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="214"></NameColumnWidth>
+      <ValueColumnWidth column_width="82"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_RAMtop/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RAMtop/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RAMtop/databus" type="array">
+      <obj_property name="ElementShortName">databus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">databus[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RAMtop/address" type="array">
+      <obj_property name="ElementShortName">address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">address[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RAMtop/dut/addressModified" type="array">
+      <obj_property name="ElementShortName">addressModified[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addressModified[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RAMtop/write_en" type="logic">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RAMtop/dut/write_en_SP" type="logic">
+      <obj_property name="ElementShortName">write_en_SP</obj_property>
+      <obj_property name="ObjectShortName">write_en_SP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RAMtop/dut/write_en_GP" type="logic">
+      <obj_property name="ElementShortName">write_en_GP</obj_property>
+      <obj_property name="ObjectShortName">write_en_GP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RAMtop/oe" type="logic">
+      <obj_property name="ElementShortName">oe</obj_property>
+      <obj_property name="ObjectShortName">oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RAMtop/dut/oe_SP" type="logic">
+      <obj_property name="ElementShortName">oe_SP</obj_property>
+      <obj_property name="ObjectShortName">oe_SP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RAMtop/dut/oe_GP" type="logic">
+      <obj_property name="ElementShortName">oe_GP</obj_property>
+      <obj_property name="ObjectShortName">oe_GP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RAMtop/CS" type="logic">
+      <obj_property name="ElementShortName">CS</obj_property>
+      <obj_property name="ObjectShortName">CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RAMtop/dut/SP_RAM/contents_ram" type="array">
+      <obj_property name="ElementShortName">contents_ram[0:63][0:7]</obj_property>
+      <obj_property name="ObjectShortName">contents_ram[0:63][0:7]</obj_property>
+      <obj_property name="Reversed">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RAMtop/dut/GP_RAM/contents_ram" type="array">
+      <obj_property name="ElementShortName">contents_ram[191:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">contents_ram[191:0][7:0]</obj_property>
+   </wvobject>
+</wave_config>

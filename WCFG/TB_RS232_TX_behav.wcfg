@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_RS232_TX_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_RS232_TX" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="98948505fs"></ZoomStartTime>
+      <ZoomEndTime time="100210299fs"></ZoomEndTime>
+      <Cursor1Time time="100000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="148"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/TB_RS232_TX/Start" type="logic">
+      <obj_property name="ElementShortName">Start</obj_property>
+      <obj_property name="ObjectShortName">Start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_RS232_TX/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_RS232_TX/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_RS232_TX/EOT" type="logic">
+      <obj_property name="ElementShortName">EOT</obj_property>
+      <obj_property name="ObjectShortName">EOT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_RS232_TX/TX" type="logic">
+      <obj_property name="ElementShortName">TX</obj_property>
+      <obj_property name="ObjectShortName">TX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider123">
+      <obj_property name="label">Datos</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_RS232_TX/Data" type="array">
+      <obj_property name="ElementShortName">Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_RS232_TX/uut/RData" type="array">
+      <obj_property name="ElementShortName">RData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RData[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider122">
+      <obj_property name="label">Estado</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_RS232_TX/uut/SMCurrentState" type="other">
+      <obj_property name="ElementShortName">SMCurrentState</obj_property>
+      <obj_property name="ObjectShortName">SMCurrentState</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider107">
+      <obj_property name="label">Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_RS232_TX/uut/Pulse_With" type="logic">
+      <obj_property name="ElementShortName">Pulse_With</obj_property>
+      <obj_property name="ObjectShortName">Pulse_With</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_RS232_TX/uut/Data_End" type="logic">
+      <obj_property name="ElementShortName">Data_End</obj_property>
+      <obj_property name="ObjectShortName">Data_End</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_RS232_TX/uut/Enable_Cuenta" type="logic">
+      <obj_property name="ElementShortName">Enable_Cuenta</obj_property>
+      <obj_property name="ObjectShortName">Enable_Cuenta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_RS232_TX/uut/Clk_Count_reset" type="logic">
+      <obj_property name="ElementShortName">Clk_Count_reset</obj_property>
+      <obj_property name="ObjectShortName">Clk_Count_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_RS232_TX/uut/Clk_Count" type="other">
+      <obj_property name="ElementShortName">Clk_Count</obj_property>
+      <obj_property name="ObjectShortName">Clk_Count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_RS232_TX/uut/Data_Count" type="other">
+      <obj_property name="ElementShortName">Data_Count</obj_property>
+      <obj_property name="ObjectShortName">Data_Count</obj_property>
+   </wvobject>
+</wave_config>

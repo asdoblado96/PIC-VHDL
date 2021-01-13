@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="DMA_tb_RX_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="DMA_tb_RX" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="540000fs"></ZoomStartTime>
+      <ZoomEndTime time="637301fs"></ZoomEndTime>
+      <Cursor1Time time="600000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="140"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/DMA_tb_RX/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DMA_tb_RX/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DMA_tb_RX/Send_comm" type="logic">
+      <obj_property name="ElementShortName">Send_comm</obj_property>
+      <obj_property name="ObjectShortName">Send_comm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DMA_tb_RX/uut/SMCurrentState" type="array">
+      <obj_property name="ElementShortName">SMCurrentState[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SMCurrentState[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DMA_tb_RX/RX_Empty" type="logic">
+      <obj_property name="ElementShortName">RX_Empty</obj_property>
+      <obj_property name="ObjectShortName">RX_Empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DMA_tb_RX/Data_Read" type="logic">
+      <obj_property name="ElementShortName">Data_Read</obj_property>
+      <obj_property name="ObjectShortName">Data_Read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DMA_tb_RX/DMA_ACK" type="logic">
+      <obj_property name="ElementShortName">DMA_ACK</obj_property>
+      <obj_property name="ObjectShortName">DMA_ACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DMA_tb_RX/DMA_RQ" type="logic">
+      <obj_property name="ElementShortName">DMA_RQ</obj_property>
+      <obj_property name="ObjectShortName">DMA_RQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DMA_tb_RX/RCVD_Data" type="array">
+      <obj_property name="ElementShortName">RCVD_Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RCVD_Data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group181" type="group">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/DMA_tb_RX/Write_en" type="logic">
+         <obj_property name="ElementShortName">Write_en</obj_property>
+         <obj_property name="ObjectShortName">Write_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb_RX/oe" type="logic">
+         <obj_property name="ElementShortName">oe</obj_property>
+         <obj_property name="ObjectShortName">oe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb_RX/CS" type="logic">
+         <obj_property name="ElementShortName">CS</obj_property>
+         <obj_property name="ObjectShortName">CS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb_RX/Databus" type="array">
+         <obj_property name="ElementShortName">Databus[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Databus[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DMA_tb_RX/Address" type="array">
+         <obj_property name="ElementShortName">Address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Address[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/DMA_tb_RX/uut/CR" type="array">
+      <obj_property name="ElementShortName">CR[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CR[1:0]</obj_property>
+   </wvobject>
+</wave_config>
